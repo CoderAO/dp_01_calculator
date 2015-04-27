@@ -6,9 +6,9 @@
 //  Copyright (c) 2015年 CoderAR. All rights reserved.
 //
 
-#import "OperationMutiply.h"
+#import "OperationMultiply.h"
 
-@implementation OperationMutiply
+@implementation OperationMultiply
 
 - (float)calculate
 {

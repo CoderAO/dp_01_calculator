@@ -8,6 +8,6 @@
 
 #import "Operation.h"
 
-@interface OperationMutiply : Operation
+@interface OperationMultiply : Operation
 
 @end

@@ -11,7 +11,7 @@
 		A01873051AEDCE9A00B8954F /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = A01873041AEDCE9A00B8954F /* Operation.m */; };
 		A01873081AEDCEEE00B8954F /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A01873071AEDCEEE00B8954F /* OperationAdd.m */; };
 		A018730B1AEDCF2F00B8954F /* OperationMinus.m in Sources */ = {isa = PBXBuildFile; fileRef = A018730A1AEDCF2F00B8954F /* OperationMinus.m */; };
-		A018730E1AEDCF6700B8954F /* OperationMutiply.m in Sources */ = {isa = PBXBuildFile; fileRef = A018730D1AEDCF6700B8954F /* OperationMutiply.m */; };
+		A018730E1AEDCF6700B8954F /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = A018730D1AEDCF6700B8954F /* OperationMultiply.m */; };
 		A01873111AEDCF8E00B8954F /* OperationDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = A01873101AEDCF8E00B8954F /* OperationDivide.m */; };
 		A01873141AEDCFE100B8954F /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A01873131AEDCFE100B8954F /* OperationFactory.m */; };
 /* End PBXBuildFile section */
@@ -37,8 +37,8 @@
 		A01873071AEDCEEE00B8954F /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
 		A01873091AEDCF2F00B8954F /* OperationMinus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMinus.h; sourceTree = "<group>"; };
 		A018730A1AEDCF2F00B8954F /* OperationMinus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMinus.m; sourceTree = "<group>"; };
-		A018730C1AEDCF6700B8954F /* OperationMutiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMutiply.h; sourceTree = "<group>"; };
-		A018730D1AEDCF6700B8954F /* OperationMutiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMutiply.m; sourceTree = "<group>"; };
+		A018730C1AEDCF6700B8954F /* OperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		A018730D1AEDCF6700B8954F /* OperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
 		A018730F1AEDCF8D00B8954F /* OperationDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDivide.h; sourceTree = "<group>"; };
 		A01873101AEDCF8E00B8954F /* OperationDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDivide.m; sourceTree = "<group>"; };
 		A01873121AEDCFE100B8954F /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 				A01873071AEDCEEE00B8954F /* OperationAdd.m */,
 				A01873091AEDCF2F00B8954F /* OperationMinus.h */,
 				A018730A1AEDCF2F00B8954F /* OperationMinus.m */,
-				A018730C1AEDCF6700B8954F /* OperationMutiply.h */,
-				A018730D1AEDCF6700B8954F /* OperationMutiply.m */,
+				A018730C1AEDCF6700B8954F /* OperationMultiply.h */,
+				A018730D1AEDCF6700B8954F /* OperationMultiply.m */,
 				A018730F1AEDCF8D00B8954F /* OperationDivide.h */,
 				A01873101AEDCF8E00B8954F /* OperationDivide.m */,
 			);
@@ -151,7 +151,7 @@
 				A01873111AEDCF8E00B8954F /* OperationDivide.m in Sources */,
 				A018730B1AEDCF2F00B8954F /* OperationMinus.m in Sources */,
 				A01872FD1AEDCCC500B8954F /* main.m in Sources */,
-				A018730E1AEDCF6700B8954F /* OperationMutiply.m in Sources */,
+				A018730E1AEDCF6700B8954F /* OperationMultiply.m in Sources */,
 				A01873141AEDCFE100B8954F /* OperationFactory.m in Sources */,
 				A01873051AEDCE9A00B8954F /* Operation.m in Sources */,
 				A01873081AEDCEEE00B8954F /* OperationAdd.m in Sources */,
@@ -271,6 +271,7 @@
 				A01873021AEDCCC500B8954F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

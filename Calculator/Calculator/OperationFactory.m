@@ -11,7 +11,7 @@
 #import "OperationAdd.h"
 #import "OperationDivide.h"
 #import "OperationMinus.h"
-#import "OperationMutiply.h"
+#import "OperationMultiply.h"
 
 @implementation OperationFactory
 
@@ -26,7 +26,7 @@
             operation = [[OperationMinus alloc]init];
             break;
         case '*':
-            operation = [[OperationMutiply alloc]init];
+            operation = [[OperationMultiply alloc]init];
             break;
         case '/':
             operation = [[OperationDivide alloc]init];
